@@ -5,7 +5,7 @@ public class DivisibleByFive {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = input.nextInt();
-        boolean isDivisible = (number % 5 == 0);
+        boolean isDivisible = (number % 6 == 0);
         System.out.println("Is the number " + number + " divisible by 5? " + isDivisible);
         input.close();
     }
